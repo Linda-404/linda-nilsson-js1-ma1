@@ -46,7 +46,8 @@ for(let i = 0; i <paragraphs.length; i++) {
 
 const resultsContainer = document.querySelector(".results");
 
-resultsContainer.innerHTML = "<p>" + "New paragraph" + "</p>";
+resultsContainer.innerHTML = "<p>New paragraph</p>";
+resultsContainer.style.backgroundColor = "yellow";
 
 //question 7:
 
@@ -81,5 +82,3 @@ function createCats(cats) {
 }
 
 const newHtml = createCats(cats);
-
-//console.log(createCats(cats));
